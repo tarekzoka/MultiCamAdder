@@ -1,13 +1,13 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/tarekzoka/MultiCamAdder/refs/heads/main/installer.sh -O - | /bin/sh
 ##
 ######################################################################################
 
 # My config script
 MY_TAR_PY2="MultiCamAdder_py2.tar.gz"
 MY_TAR_PY3="MultiCamAdder_py3.tar.gz"
-MY_URL="https://raw.githubusercontent.com/emilnabil/download-plugins/refs/heads/main/MultiCamAdder"
+MY_URL="https://raw.githubusercontent.com/tarekzoka/MultiCamAdder/refs/heads/main/"
 
 # Detect Python Version
 if command -v python3 &>/dev/null; then
@@ -45,7 +45,7 @@ else
 fi
 
 echo "$MY_EM"
-echo " UPLOADED BY >>>> EMIL_NABIL "
+echo " UPLOADED BY >>>> TAREK-HANFY "
 sleep 4
 echo "$MY_EM"
 
